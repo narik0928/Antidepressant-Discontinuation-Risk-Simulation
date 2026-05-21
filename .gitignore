@@ -1,0 +1,4 @@
+.Rhistory
+.RData
+.Rproj.user/
+data/simulation_outputs/*.csv
