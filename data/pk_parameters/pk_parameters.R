@@ -35,23 +35,23 @@ pk_params <- list(
     drug        = "Fluoxetine",
     class       = "SSRI",
     formulation = "IR",
-    Ka          = 0.30,    # 1/h | Pauchard 2011 (고정값)
+    Ka          = 0.72,    # 1/h | Tmax 7.1h 역산 | FDA label 6-8h 기준
     Vd          = 2310,    # L   | 33 L/kg × 70kg | NZ Medicines
     CL          = 10.5,    # L/h | 0.15 L/h/kg × 70kg | NZ Medicines
     F           = 0.70,
-    t_half      = 120,     # h   | 4–6일 chronic
+    t_half      = 153,     # h   | 6.4일 (CL=10.5 역산값, 문헌범위 4-16일 내)
     CV_CL       = 0.874,
     CV_Vd       = 0.50,
-    model       = "2-compartment + metabolite",
+    model       = "1-compartment + metabolite (단순화, terminal elimination 집중)",
     norfluoxetine = list(
       Ka_met    = 0.30,
       Vd_met    = 2310,
-      CL_met    = 0.9,     # L/h | Sagahon-Azua 2021
+      CL_met    = 7.18,    # L/h | 0.693 × 2310 / 223 | FDA label t½=223h 역산
       t_half    = 223,     # h   | FDA label 반복투여 9.3일
       CV_CL_met = 0.564,
       Fm        = 0.72
     ),
-    source      = "NZ Medicines; Pauchard 2011; Sagahon-Azua 2021; FDA label (Prozac)"
+    source      = "NZ Medicines (CL); FDA label (Prozac, Ka/t½_nfx); Pauchard 2011 (Tmax기준)"
   ),
   
   # ── Paroxetine IR ──────────────────────────────────────────
