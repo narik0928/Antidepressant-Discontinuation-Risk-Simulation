@@ -1,0 +1,9 @@
+drug,class,formulation,Ka_1h,Vd_L,CL_Lh,F,t_half_h,CV_CL,CV_Vd,model,validation_status,change_from_v1,source
+Sertraline,SSRI,IR,0.50,1400,88,1.0,26,0.40,0.35,1-compartment,VALIDATED,CL 37→88 (F=1.0 apparent CL/F 통합),"FDA label (Zoloft); Monfort 2024 BJCP"
+Fluoxetine,SSRI,IR,0.30,2310,10.5,0.70,120,0.874,0.50,2-compartment+metabolite,VALIDATED,Vd 2450→2310 / F 72→70%,"NZ Medicines monograph; Pauchard 2011; FDA label (Prozac)"
+Norfluoxetine,SSRI,metabolite,0.30,2310,0.9,NA,223,0.564,0.50,metabolite,VALIDATED,t½ 360→223h (FDA label 반복투여 9.3일),"Sagahon-Azua 2021 PRP; FDA label (Prozac)"
+Paroxetine,SSRI,IR,0.908,8850,21.2,0.50,21,0.60,0.50,1-compartment-nonlinear,VALIDATED,변경없음 (t½ 범위 7-65h 유의),"Li 2022 Front Pharmacol; Kaye 1989"
+Paroxetine,SSRI,SR,0.200,2955,21.2,0.50,21,0.60,0.50,1-compartment-SR,VALIDATED,Vd 2950→2955 L (소수점 수정),"Li 2022 Front Pharmacol"
+Venlafaxine,SNRI,IR,1.50,525,91,0.45,5,0.46,0.49,1-compartment+ODV,VALIDATED,CL 84→91 L/h (FDA label 정확값),"FDA label (Effexor XR 2012)"
+ODV,SNRI,metabolite,NA,399,28,NA,11,0.50,NA,metabolite,VALIDATED,Vd 525→399 L / CL 35→28 L/h (FDA label),"FDA label (Effexor XR 2012)"
+Venlafaxine,SNRI,XR,0.25,525,91,0.45,5,0.46,0.49,1-compartment+ODV,VALIDATED,CL 84→91 L/h (FDA label 정확값),"FDA label (Effexor XR 2012)"
