@@ -1,0 +1,8 @@
+Drug,Std_dose,Tmax_sim_h,Tmax_label_range_h,Tmax_flag,thalf_sim_h,thalf_analytical_h,thalf_label_range_h,thalf_flag,Css_sim_ngmL,Css_label_range_ngmL,Css_flag,Overall,Source
+Sertraline,50 mg QD,6.25,4.5–8.4,PASS,26,26,22–36,PASS,55.7,20–60,PASS,PASS,FDA label (Zoloft); Monfort 2024
+Fluoxetine,20 mg QD,7,6–8,PASS,152.5,152.5,120–192,PASS,111.9,91–604,PASS,PASS,FDA label (Prozac); NZ Medicines; Ctotal lower bound = FLX parent lower bound
+Norfluoxetine,—,NA,—,N/A,237.7,223,192–384,PASS,56.6,—,N/A,PASS,FDA label (Prozac)
+Paroxetine,20 mg QD,5.25,3–8,PASS,21,21,7–65,PASS,20.7,30–100,BORDERLINE,PASS,FDA label (Paxil); Li 2022 (Tmax only)
+Venlafaxine IR,25 mg TID,1.75,1–2.5,PASS,4,4,3–7,PASS,55.3,40–200,PASS,PASS,FDA label (Effexor XR 2012); Ctotal (VEN+ODV); range estimated from parent+metabolite
+Venlafaxine XR,75 mg QD,4.75,4–8,PASS,4.1,4,3–7,PASS,55.4,40–200,PASS,PASS,FDA label (Effexor XR 2012); Ctotal (VEN+ODV); range estimated from parent+metabolite
+ODV,—,NA,—,N/A,9.9,9.9,9–13,PASS,NA,—,N/A,PASS,FDA label (Effexor XR 2012)

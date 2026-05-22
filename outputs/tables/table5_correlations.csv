@@ -1,0 +1,6 @@
+drug,n,rho_t50_AUC,p_t50_AUC,rho_dCdt_AUC,p_dCdt_AUC
+Fluoxetine,9710,-0.582,< 0.001,0.667,< 0.001
+Paroxetine,7918,0.632,< 0.001,-0.632,< 0.001
+Sertraline,9373,0.414,< 0.001,-0.414,< 0.001
+Venlafaxine_IR,9901,0.799,< 0.001,-0.849,< 0.001
+Venlafaxine_XR,7417,0.717,< 0.001,-0.797,< 0.001

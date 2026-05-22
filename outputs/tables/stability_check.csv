@@ -1,0 +1,16 @@
+drug,n_size,CV_t50_pct,CV_AUC_pct,CV_dCdt_pct
+Fluoxetine,1000,2.56,1.35,3.37
+Fluoxetine,5000,0.64,0.54,0.67
+Fluoxetine,10000,0,0,0
+Paroxetine,1000,4.01,1.49,1.52
+Paroxetine,5000,1.26,0.41,0.47
+Paroxetine,10000,0,0,0
+Sertraline,1000,3.47,0.54,1.34
+Sertraline,5000,0.73,0.34,0.29
+Sertraline,10000,0,0,0
+Venlafaxine_IR,1000,2.76,1.27,0.82
+Venlafaxine_IR,5000,0.7,0.41,0.24
+Venlafaxine_IR,10000,0,0,0
+Venlafaxine_XR,1000,2.23,1,0.37
+Venlafaxine_XR,5000,1.06,0.28,0.2
+Venlafaxine_XR,10000,0,0,0

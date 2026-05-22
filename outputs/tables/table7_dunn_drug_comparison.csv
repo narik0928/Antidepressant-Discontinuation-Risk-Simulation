@@ -1,0 +1,21 @@
+group1,group2,statistic,p,p.adj,p.adj.signif,metric
+Fluoxetine,Paroxetine,3.284,0.0010,0.0102,*,AUC deficit 7d
+Fluoxetine,Sertraline,91.464,< 0.001,< 0.001,****,AUC deficit 7d
+Fluoxetine,Venlafaxine_IR,119.12,< 0.001,< 0.001,****,AUC deficit 7d
+Fluoxetine,Venlafaxine_XR,128.946,< 0.001,< 0.001,****,AUC deficit 7d
+Paroxetine,Sertraline,83.511,< 0.001,< 0.001,****,AUC deficit 7d
+Paroxetine,Venlafaxine_IR,109.549,< 0.001,< 0.001,****,AUC deficit 7d
+Paroxetine,Venlafaxine_XR,119.979,< 0.001,< 0.001,****,AUC deficit 7d
+Sertraline,Venlafaxine_IR,26.153,< 0.001,< 0.001,****,AUC deficit 7d
+Sertraline,Venlafaxine_XR,42.731,< 0.001,< 0.001,****,AUC deficit 7d
+Venlafaxine_IR,Venlafaxine_XR,18.7,< 0.001,< 0.001,****,AUC deficit 7d
+Fluoxetine,Paroxetine,-97.339,< 0.001,< 0.001,****,t50% C0 (h)
+Fluoxetine,Sertraline,-98.271,< 0.001,< 0.001,****,t50% C0 (h)
+Fluoxetine,Venlafaxine_IR,-131.58,< 0.001,< 0.001,****,t50% C0 (h)
+Fluoxetine,Venlafaxine_XR,-141.802,< 0.001,< 0.001,****,t50% C0 (h)
+Paroxetine,Sertraline,3.337,< 0.001,0.0085,**,t50% C0 (h)
+Paroxetine,Venlafaxine_IR,-26.887,< 0.001,< 0.001,****,t50% C0 (h)
+Paroxetine,Venlafaxine_XR,-44.114,< 0.001,< 0.001,****,t50% C0 (h)
+Sertraline,Venlafaxine_IR,-31.662,< 0.001,< 0.001,****,t50% C0 (h)
+Sertraline,Venlafaxine_XR,-49.147,< 0.001,< 0.001,****,t50% C0 (h)
+Venlafaxine_IR,Venlafaxine_XR,-20.023,< 0.001,< 0.001,****,t50% C0 (h)
